@@ -21,7 +21,7 @@ Simulador WOKWI (https://wokwi.com) :
 
 Nos llevará a la siguiente página:
 
-![]()
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-05%20010757.png)
 
 3. En la parte de ``sketch.ino`` nos muestra el código anterior que debemos borrar para colocar el nuevo a continuación:
 ````
@@ -79,30 +79,35 @@ lcd.setCursor(0, 1);
 ````
 
 4. En ``Library Manager`` vamos a buscar en la opción de ``+`` la siguiente biblioteca:
--LiquidCrystal I2C
 
-![]()
+- LiquidCrystal I2C
 
-5. Para colocar el LCD y ultrasonico nos iremos a la parte de ``Simulation`` en la opción de ``+`` y buscar:
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20004327.png)
 
+5. Para colocar el LCD y ultrasonico nos iremos a la parte de ``Simulation`` en la opción de ``+``
+
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-04%20230350.png)
+
+Buscar:
+
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-05%20205947.png)
 ![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20001953.png)
-![]()
 
-7. Se hace la conexión del ESP32 con el LCD y ultrasonico
+6. Se hace la conexión del ESP32 con el LCD y ultrasonico
 
 ![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20003707.png)
 
-8. Iniciamos la simulación con el botón ``play (|>)`` y empezará a darnos los lectores del LCD con el ultrasonico
+7. Iniciamos la simulación con el botón ``play (|>)`` y empezará a darnos los lectores del LCD con el ultrasonico
 
-![]()
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-04%20230350.png) 
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20010032.png)
 
 ## Resultados
 Obtenemos los resultados que manda el ultrasonico y ESP32 al LCD 
 
-![]() 
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20010032.png) 
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20010007.png)
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20010059.png)
+
 
 
