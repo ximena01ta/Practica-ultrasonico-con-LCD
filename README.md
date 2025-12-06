@@ -1,13 +1,30 @@
-# Practica-ultrasonico-con-LCD
+# PRACTICA - ULTRASONICO CON LCD
+
+## Introducción
 
 
+## Materiales
+Simulador WOKWI (https://wokwi.com) :
+- Tarjeta ESP32
+- LCD
+- Ultrasonico
 
+## Procedimiento 
+1. En el buscador ingresar la página https://wokwi.com
 
+![]()
 
+2. Seleccionar la opción ``ESP32`` en ambos casos
 
+![]()
+![]()
 
+Nos llevará a la siguiente página:
 
+![]()
 
+3. En la parte de ``sketch.ino`` nos muestra el código anterior que debemos borrar para colocar el nuevo a continuación:
+````
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
 #define LCD_COLUMNS 20
@@ -59,5 +76,33 @@ lcd.setCursor(0, 1);
   lcd.print("cm");
   delay(1500);          //Hacemos una pausa de 100ms
 }
+````
+
+4. En ``Library Manager`` vamos a buscar en la opción de ``+`` la siguiente biblioteca:
+-LiquidCrystal I2C
+
+![]()
+
+5. Para colocar el LCD y ultrasonico nos iremos a la parte de ``Simulation`` en la opción de ``+`` y buscar:
+
+![]()
+![]()
+
+7. Se hace la conexión del ESP32 con el LCD y ultrasonico
+
+![]()
+
+8. Iniciamos la simulación con el botón ``play (|>)`` y empezará a darnos los lectores del LCD con el ultrasonico
+
+![]()
+
+## Resultados
+Obtenemos los resultados que manda el ultrasonico y ESP32 al LCD 
+
+![]() 
+![]()
+![]()
+![]()
+![]()
 
 
