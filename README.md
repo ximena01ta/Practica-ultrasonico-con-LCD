@@ -1,7 +1,7 @@
 # PRACTICA - ULTRASONICO CON LCD
 
 ## Introducción
-
+Usaremos el ultrasonico con la tarjeta ESP32 para visualizar datos en la pantalla LCD 
 
 ## Materiales
 Simulador WOKWI (https://wokwi.com) :
