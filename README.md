@@ -90,7 +90,7 @@ lcd.setCursor(0, 1);
 
 7. Se hace la conexión del ESP32 con el LCD y ultrasonico
 
-![]()
+![](https://github.com/ximena01ta/Practica-ultrasonico-con-LCD/blob/main/Captura%20de%20pantalla%202025-12-06%20003707.png)
 
 8. Iniciamos la simulación con el botón ``play (|>)`` y empezará a darnos los lectores del LCD con el ultrasonico
 
